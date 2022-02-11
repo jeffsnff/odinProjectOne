@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+.backgroundBlue {
+    background-color: #1F2937;
+}
+
+
+
+/* Header section */
+header {
+    padding: 20px 100px 100px 100px;
+}
+
+.header-logo{
+    float: inline-start;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navigation-links{
+    float: inline-end;
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navigation-links li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/* Section one */
+.section-one{
+    border: 1px solid red;
+    padding: 20px 100px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.section-one-maincontent {
+    border: 1px solid green;
+    width: 400px;
+}
+.section-one-maincontent > p {
+    width: 370px;
+}
+.section-one > div > h3 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-style: bold;
+}
+.section-one > div > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.section-one > div > button {
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
